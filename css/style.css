@@ -184,12 +184,15 @@ body {
 	.main__text {
 		max-width: 235px;
 	}
-	
+	.main__wrapper {
+		padding: 0 30px;
+		height: 100dvh;
+	}
 }
 
 @supports (height: 100dvh) {
-    .main__wrapper {
+	.main__wrapper {
 		padding: 0 30px;
-        height: 100dvh;
-    }
+		height: 100dvh;
+	}
 }
