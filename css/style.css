@@ -184,4 +184,7 @@ body {
 	.main__text {
 		max-width: 235px;
 	}
+	.main__wrapper {
+		height: 100vh;
+	}
 }
