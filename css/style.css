@@ -185,7 +185,7 @@ body {
 		max-width: 235px;
 	}
 	.main__wrapper {
-		height: 100vh;
+		height: 100dvh;
 		padding: 0 30px;
 	}
 }
