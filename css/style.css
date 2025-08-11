@@ -186,5 +186,6 @@ body {
 	}
 	.main__wrapper {
 		height: 100vh;
+		padding: 0 30px;
 	}
 }
