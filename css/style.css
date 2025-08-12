@@ -96,7 +96,7 @@ body {
 }
 .main__button {
 	display: block;
-	font-size: clamp(20px, 2.2vw, 35px);
+	font-size: clamp(20px, 2.2vw, 27px);
 	border-image-slice: 1;
 	border-radius: 40px;
 	padding: 15px 10px;
@@ -188,11 +188,49 @@ body {
 		padding: 0 30px;
 		height: 100dvh;
 	}
+	.container::after {
+		display: none;
+	}
+	.main__img-mini{
+		width: 120px !important;
+		height: 30px !important;
+		margin-bottom: 10px !important;
+	}
 }
 
 @supports (height: 100dvh) {
 	.main__wrapper {
 		padding: 0 30px;
 		height: 100dvh;
+	}
+}
+
+.container::after {
+	content: '';
+	position: absolute;
+	bottom: 85%;
+	left: -2%;
+	max-width: 100%;
+	width: 157px;
+	height: 31px;
+	background-image: url('../img/logo.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	z-index: 0;
+}
+
+@media (max-width: 1300px) {
+	.container::after {
+		top: 1%;
+		left: 50%;
+		transform: translateX(-50%);
+		
+	}
+}
+@media (max-width: 1050px) {
+	.container::after {
+		bottom: 93%;
+		
 	}
 }
