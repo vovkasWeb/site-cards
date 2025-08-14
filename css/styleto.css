@@ -247,10 +247,11 @@ body {
 	}
 }
 
+
 .container::after {
 	content: '';
 	position: absolute;
-	bottom: 85%;
+	top: 5%;
 	left: -2%;
 	max-width: 100%;
 	width: 157px;
@@ -269,8 +270,4 @@ body {
 		transform: translateX(-50%);
 	}
 }
-@media (max-width: 1050px) {
-	.container::after {
-		bottom: 93%;
-	}
-}
+

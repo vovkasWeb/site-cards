@@ -124,7 +124,7 @@ body {
 	width: 100%;
 	height: auto;
 }
-.main__img-mini{
+.main__img-mini {
 	display: none;
 }
 
@@ -195,7 +195,7 @@ body {
 	.container::after {
 		display: none;
 	}
-	.main__img-mini{
+	.main__img-mini {
 		width: 120px !important;
 		height: 30px !important;
 		margin-bottom: 10px !important;
@@ -213,7 +213,7 @@ body {
 .container::after {
 	content: '';
 	position: absolute;
-	bottom: 85%;
+	top: 5%;
 	left: -2%;
 	max-width: 100%;
 	width: 157px;
@@ -230,12 +230,5 @@ body {
 		top: 1%;
 		left: 50%;
 		transform: translateX(-50%);
-		
-	}
-}
-@media (max-width: 1050px) {
-	.container::after {
-		bottom: 93%;
-		
 	}
 }
